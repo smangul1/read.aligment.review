@@ -1,0 +1,4 @@
+@HD	VN:1.0
+@SQ	SN:Reference	LN:10105
+@PG	PN:BS Seeker 2	ID:1	CL:bs_seeker2-align.py -i Test/toy.short.reads.fastq --aligner=bowtie -p /home/picer1/Read_Alignment_Project/Bowtie -o Test/WBGS_short.sam -f sam -g Test/ref.new.fas
+r1	0	Reference	624	255	67M	*	0	0	GTCAATTCGATGCGGCAACACCAGGAAACACATCCCCAAACATATTCTGGTCAACCTGTCTCGCTCT	*	XO:Z:+FW	XS:i:1	NM:i:0	XM:Z:--Z----X----X--Z--Z-ZY------Z-Z--ZZZZ---Z-----Y----Z--ZY---Z-X-Z-Y-	XG:Z:AT_GTCAATTCGATGCGGCAACACCAGGAAACACATCCCCAAACATATTCTGGTCAACCTGTCTCGCTCT_GC

@@ -1,0 +1,4 @@
+@HD	VN:1.0
+@SQ	SN:Reference	LN:10105
+@PG	ID:BSMAP	VN:2.90	CL:"./bsmap -a Test/toy.short.reads.fastq -d Test/ref.new.fas -o Test/output_short.sam"
+r1	0	Reference	624	255	67M	*	0	0	GTCAATTCGATGCGGCAACACCAGGAAACACATCCCCAAACATATTCTGGTCAACCTGTCTCGCTCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ZS:Z:++
