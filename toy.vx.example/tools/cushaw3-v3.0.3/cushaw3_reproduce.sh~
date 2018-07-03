@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cushaw3 index -p toy.reference toy.reference.fa
+./cushaw3 align -r toy.reference -f toy.short.reads.fq -t 12 -o output.short.reads.sam
+
+
