@@ -16,6 +16,9 @@ do
 #   mv short1nospace.fq short1.fq
    tr -d '\040\011\012\015' < short1.fq > short1shorten.fq
    mv short1shorten.fq short1.fq
+   echo ">R$i" >> shortReads.fa
+   cat short1.fq >> shortReads.fa
+   echo "" >> shortReads.fa
    tr "[A-Z]" "\~" < short1.fq > short1_tildas.fq
    echo "@R$i" >> shortReads.fq
    cat short1.fq >> shortReads.fq
@@ -25,6 +28,8 @@ do
    echo "" >> shortReads.fq
 done
 cp shortReads.fq toy.short_reads.fq
+cp shortReads.fa toy.short_reads.fa
 mv toy.short_reads.fq ..
+mv toy.short_reads.fa ..
 cp reference.fa toy.reference.fa
 mv toy.reference.fa ..

@@ -1,0 +1,1 @@
+Only reads fasta files. Fastq files give an error. The output is not in a sam format. Reports in a "human-readable format and also in 'vulgar' format"
