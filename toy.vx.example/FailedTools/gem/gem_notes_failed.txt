@@ -1,0 +1,1 @@
+Input file is a ChIP-seq alignment file. Formats supported: BED, SAM. Input is not a fasta or fastq file so gem could not be run.

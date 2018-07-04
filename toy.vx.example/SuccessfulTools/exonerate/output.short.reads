@@ -1,0 +1,193 @@
+Command line: [./exonerate toy.short.reads.fa toy.reference.fa]
+Hostname: [login4]
+
+C4 Alignment:
+------------
+         Query: R9
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 808 -> 908
+
+   1 : TCAGCCTCCAAAGCACCCAACCAGAGGATGCAATTCGGATCCACGGGAGTAGTATGCGGGTGAC :  64
+       ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 809 : TCAGCCTCCAAAGCACCCAACCAGAGGATGCAATTCGGATCCACGGGAGTAGTATGCGGGTGAC : 872
+
+  65 : GTCGGCGCCTTGCACCAACAGTCTGTTGGGACGGCT : 100
+       ||||||||||||||||||||||||||||||||||||
+ 873 : GTCGGCGCCTTGCACCAACAGTCTGTTGGGACGGCT : 908
+
+vulgar: R9 0 100 + Reference 808 908 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R6
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 1952 -> 2052
+
+    1 : TGTGCTGCCAGAGACCAAATTGCATTGAGACTGCAAAACGGGCGACGCAACTCATAAGAACG :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 1953 : TGTGCTGCCAGAGACCAAATTGCATTGAGACTGCAAAACGGGCGACGCAACTCATAAGAACG : 2014
+
+   63 : GGTCCTAAAAAATTTGAACGCACGTTTGAAAAGATTCT :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 2015 : GGTCCTAAAAAATTTGAACGCACGTTTGAAAAGATTCT : 2052
+
+vulgar: R6 0 100 + Reference 1952 2052 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R3
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 3180 -> 3280
+
+    1 : TCTGGACGTAGTGAAGCCTTTTGTCTCCTTTGTTTAACGGACTTACCGTACTAGTCTTGCCT :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 3181 : TCTGGACGTAGTGAAGCCTTTTGTCTCCTTTGTTTAACGGACTTACCGTACTAGTCTTGCCT : 3242
+
+   63 : TTGGGGTGAGTGAACCCCGAATTCTTCTCCTCTAGAGG :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 3243 : TTGGGGTGAGTGAACCCCGAATTCTTCTCCTCTAGAGG : 3280
+
+vulgar: R3 0 100 + Reference 3180 3280 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R10
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 3310 -> 3410
+
+    1 : CTAGCGTATGCGTCACACGGCTAACGACGGCGACGGCCACCGAACACTTTTTCATGACATTT :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 3311 : CTAGCGTATGCGTCACACGGCTAACGACGGCGACGGCCACCGAACACTTTTTCATGACATTT : 3372
+
+   63 : CGAAAGGGCTGAGCCCGCCTTTACCCGCGCGATGCTTT :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 3373 : CGAAAGGGCTGAGCCCGCCTTTACCCGCGCGATGCTTT : 3410
+
+vulgar: R10 0 100 + Reference 3310 3410 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R2
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 6347 -> 6447
+
+    1 : ACCTGCTTAACCCTTCAGTGCTCTCTACTTTCGGAGAATCCTCTCAGTCACCGAATCCAGAC :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 6348 : ACCTGCTTAACCCTTCAGTGCTCTCTACTTTCGGAGAATCCTCTCAGTCACCGAATCCAGAC : 6409
+
+   63 : CAATATGCCAAGGGCGCCCCCATGCGCCGACACCGGAA :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 6410 : CAATATGCCAAGGGCGCCCCCATGCGCCGACACCGGAA : 6447
+
+vulgar: R2 0 100 + Reference 6347 6447 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R4
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 7892 -> 7992
+
+    1 : AATAACGATGAACGACCGCGGCCACGGAACACATCAGTGTTGCTCTCTGCCTTGGATCAATA :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 7893 : AATAACGATGAACGACCGCGGCCACGGAACACATCAGTGTTGCTCTCTGCCTTGGATCAATA : 7954
+
+   63 : GGGTGCGTCTCATCGGGGTTAAATTGCCTGTCTGCCCG :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 7955 : GGGTGCGTCTCATCGGGGTTAAATTGCCTGTCTGCCCG : 7992
+
+vulgar: R4 0 100 + Reference 7892 7992 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R7
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 7984 -> 8084
+
+    1 : TCTGCCCGCTCGCTGTGGCGCCCATGCCCCATCGACTTCCGTCCAAGGCCCTCCCAGTACTT :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 7985 : TCTGCCCGCTCGCTGTGGCGCCCATGCCCCATCGACTTCCGTCCAAGGCCCTCCCAGTACTT : 8046
+
+   63 : AATAGTTGGTGCCCCAACTGTTAGTGGTATACAAAGCC :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 8047 : AATAGTTGGTGCCCCAACTGTTAGTGGTATACAAAGCC : 8084
+
+vulgar: R7 0 100 + Reference 7984 8084 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R1
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 8311 -> 8411
+
+    1 : AAAGATGTTTCTGGATAGACAAGCACTAGGTGTCTTTCGTGATTGTCAAGAGTGTCGTAGCG :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 8312 : AAAGATGTTTCTGGATAGACAAGCACTAGGTGTCTTTCGTGATTGTCAAGAGTGTCGTAGCG : 8373
+
+   63 : AACTATGGTCATACGCTGACGCTTCAGAGGAGGTAACT :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 8374 : AACTATGGTCATACGCTGACGCTTCAGAGGAGGTAACT : 8411
+
+vulgar: R1 0 100 + Reference 8311 8411 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R5
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 9619 -> 9719
+
+    1 : CCCGGACAAAAAATATTTTGAGATACACAAGCCCGCGCATTATCGTTTTACTGTCGTCACTA :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 9620 : CCCGGACAAAAAATATTTTGAGATACACAAGCCCGCGCATTATCGTTTTACTGTCGTCACTA : 9681
+
+   63 : TCCGTCGCGCTCCTATTATCGCCTGTGCTCCTCTTCAC :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 9682 : TCCGTCGCGCTCCTATTATCGCCTGTGCTCCTCTTCAC : 9719
+
+vulgar: R5 0 100 + Reference 9619 9719 + 500 M 100 100
+
+C4 Alignment:
+------------
+         Query: R8
+        Target: Reference
+         Model: ungapped:dna2dna
+     Raw score: 500
+   Query range: 0 -> 100
+  Target range: 9875 -> 9975
+
+    1 : CGAGGGCTGAATAGTTGGGTTTCGATTCGTCGCGTCAGGATCTCAGCATGGCCTCTCATAGC :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 9876 : CGAGGGCTGAATAGTTGGGTTTCGATTCGTCGCGTCAGGATCTCAGCATGGCCTCTCATAGC : 9937
+
+   63 : AGCAACTCAATATGCGTCGTTGTTGATGACATGCCATG :  100
+        ||||||||||||||||||||||||||||||||||||||
+ 9938 : AGCAACTCAATATGCGTCGTTGTTGATGACATGCCATG : 9975
+
+vulgar: R8 0 100 + Reference 9875 9975 + 500 M 100 100
+-- completed exonerate analysis
