@@ -1,21 +1,18 @@
 #!/bin/bash
 rm reference.fa
 rm refcopy.fa
-#Create random file - 256 byte values to 64 characters
+#create random file - 256 byte values to 64 characters
 dd if=/dev/urandom bs=8000 count=1 | base64 > random.fa
 tr "[A-P]" "A"  < random.fa > refA.fa
 tr "[Q-Za-f]" "C"  < refA.fa > refC.fa
 tr "[g-v]" "T"  < refC.fa > refT.fa
 tr "[w-z0-9+=]" "G"  < refT.fa > refG.fa
 tr -d '/' < refG.fa > refcopy.fa
-truncate -s 10375 refcopy.fa #truncate to 10kb (10,000 bp)
-#Create refnospace.fa (reference basepairs without fasta header)
+truncate -s 10375 refcopy.fa #truncate to 10kb
 awk '/^>/ {printf("\n%s\n",$0);next; } { printf("%s",$0);}  END {printf("\n");}' < refcopy.fa > refnospace.fa
-#Create reference sequence with a fasta format
 touch reference.fa
 echo ">Reference" >> reference.fa
 cat refnospace.fa >> reference.fa
-#Remove auxiliary files used for creation of reference
 rm refA.fa
 rm refC.fa
 rm refT.fa
