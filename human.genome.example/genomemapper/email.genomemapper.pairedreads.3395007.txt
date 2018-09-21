@@ -1,0 +1,14 @@
+Job 3395007 (annular) Complete
+ User             = victorx
+ Queue            = eeskin_pod_16.q@n7114
+ Host             = n7114
+ Start Time       = 07/29/2018 16:19:58
+ End Time         = 07/29/2018 16:39:18
+ User Time        = 00:15:37
+ System Time      = 00:00:48
+ Wallclock Time   = 00:19:20
+ CPU              = 00:16:26
+ Max vmem         = 26.146G
+ Exit Status      = 0
+
+Note: Paired reads do not work on genomemapper

@@ -1,0 +1,5 @@
+mapsplice_out/tmp/original/original.sam
+mapsplice_out/tmp/original/ori.all_junctions.txt
+write junc
+sort junc
+1 junctions

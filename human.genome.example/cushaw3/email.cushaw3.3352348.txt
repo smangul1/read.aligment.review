@@ -1,0 +1,18 @@
+Job 3352348 (annular) Started
+ User       = victorx
+ Queue      = eeskin_pod_12.q
+ Host       = n6204
+ Start Time = 07/24/2018 02:09:59'
+
+Job 3352348 (annular) Complete
+ User             = victorx
+ Queue            = eeskin_pod_12.q@n6204
+ Host             = n6204
+ Start Time       = 07/24/2018 02:10:00
+ End Time         = 07/24/2018 08:09:19
+ User Time        = 2:07:49:45
+ System Time      = 00:03:04
+ Wallclock Time   = 05:59:19
+ CPU              = 2:07:52:49
+ Max vmem         = 5.738G
+ Exit Status      = 0

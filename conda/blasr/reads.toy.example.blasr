@@ -1,0 +1,8 @@
+qName tName qStrand tStrand score percentSimilarity tStart tEnd tLength qStart qEnd qLength nCells
+repeat_long/0_1264 repeat_long 0 0 -6320 100 0 1264 1264 0 1264 1264 26510
+repeat_short/0_80 repeat_short 0 0 -400 100 0 80 80 0 80 80 1646
+repeat_short/0_80 repeat_long 0 0 -400 100 240 320 1264 0 80 80 1646
+simple_long/0_1195 simple_long 0 0 -5975 100 0 1195 1195 0 1195 1195 25061
+simple_short/0_75 simple_long 0 0 -375 100 0 75 1195 0 75 75 1541
+simple_short/0_75 simple_short 0 0 -375 100 0 75 75 0 75 75 1541
+noisy_short_5/0_75 noisy_short_5 0 0 -375 100 0 75 75 0 75 75 1541

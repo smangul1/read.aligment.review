@@ -1,0 +1,6 @@
+read_format -q
+num_read 8
+minlen 75
+maxlen 80
+maxqualscore 73 minqualscore 73
+qual_scale phred64

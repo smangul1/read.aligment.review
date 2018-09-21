@@ -1,0 +1,46 @@
+first process: 0.64
+seconds passed 0
+first load flank string: 0
+seconds passed 0
+filtering: 0
+seconds passed 0
+Second filtering
+second process: 0.52
+seconds passed 1
+Convert hits to expressed regions 
+Hits to expression regions: 0
+seconds passed 0
+second process: 0
+seconds passed 0
+Union expression regions 
+Union sets: 0
+seconds passed 0
+Filter fusion by isolated exons 
+Filter fusion by isolated exons finished: 0
+seconds passed 0
+filtering: 0.01
+seconds passed 0
+third process prepare: 0
+seconds passed 0
+third filtering
+second process: 0.41
+seconds passed 0
+third process: 0
+seconds passed 0
+third write junction: 0
+seconds passed 0
+2108
+WriteFusionJunctionWithEncompassingAlignments filtering
+p1:0
+p2:0
+p3:0
+p4:0
+p5:0
+p6:0
+p7:0
+p8:0
+p9:0
+p10:0
+p11:0
+write fusion junction: 0.01
+seconds passed 0

@@ -1,0 +1,206 @@
+
+# Number of unmapped reads
+samtools view -f4 *.bam | wc -l
+
+# Number of mapped reads 
+samtools view -F 4 bowtie2.output.bam | wc -l
+
+# Number of total reads
+samtools view *.bam | wc -l
+wc -l SRR043348_2.fastq divided by 2 (4 lines each, paired reads) 
+# Number of unique reads (-F 4 excludes unmapped reads, XS tag marks multi-mapped reads)
+samtools view -F 4 bowtie2.output.bam | grep -v "XS:" | wc -l
+https://playingwithgenomics.wordpress.com/2015/07/15/producing-a-bam-file-and-extracting-unique-reads-from-bowtie2-results/
+
+# Number of multi-mapped reads
+samtools view *.bam | grep "XS:" | wc -l
+samtools view -q 1 -F 0x4 *.bam | wc -l (checks for map quality high q means most likely unique/mapped correctly )
+
+(Bowtie2)
+Mapped/total = (total - unmapped)/total = 1 - 6275400/35725642 = 82.43%
+Multi-mapped = 6807469 using XS tag  //Might be more accurate to use the bowtie2 summary given
+Since presence of XS tag doesn't necessarily mean multimapped <- http://seqanswers.com/forums/showthread.php?t=39206
+Multi-mapped = 2114168*2+412932 = 4641268 using bowtie2 report
+
+17862821 reads; of these:
+  17862821 (100.00%) were paired; of these:
+    3912541 (21.90%) aligned concordantly 0 times
+    11836112 (66.26%) aligned concordantly exactly 1 time
+    2114168 (11.84%) aligned concordantly >1 times <--------- paired-end multimappers (11.84% paired end reads multimapping)
+    ----
+    3912541 pairs aligned concordantly 0 times; of these:
+      127920 (3.27%) aligned discordantly 1 time
+    ----
+    3784621 pairs aligned 0 times concordantly or discordantly; of these:
+      7569242 mates make up the pairs; of these:
+        6275400 (82.91%) aligned 0 times
+        880910 (11.64%) aligned exactly 1 time
+        412932 (5.46%) aligned >1 times   <--------- single-end multimappers (5.46% of remaining singletons multimapping)
+82.43% overall alignment rate (11836112+2114168)*2+127920*2+880910+412932/(1786821*2)
+
+# Flagstat
+samtools flagstat bowtie2.output.bam
+35725642 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+29450242 + 0 mapped (82.43%:-nan%)
+35725642 + 0 paired in sequencing
+17862821 + 0 read1          <--------------- Number of reads mapped pair 1
+17862821 + 0 read2          <--------------- Number of reads mapped pair 2
+27900560 + 0 properly paired (78.10%:-nan%)
+28414736 + 0 with itself and mate mapped
+1035506 + 0 singletons (2.90%:-nan%)
+410070 + 0 with mate mapped to a different chr
+319428 + 0 with mate mapped to a different chr (mapQ>=5)
+
+
+#This extracts the first paired read
+samtools view -uf64 bowtie2.output.bam | samtools view - | awk '{print $1","$3","$4}' >bowtie2.output_1.start.pos.csv
+
+$1,$3,$4
+read_id,chr_id, pos
+QNAME,RNAME,POS 
+#This extracts the second paried read
+samtools view -uf128 bowtie2.output.bam | samtools view - | awk '{print $1","$3","$4}' >bowtie2.output_2.start.pos.csv
+
+(BWA)
+Unmapped/Total = 5400867/35725642 = 84.88% mapped
+Multi-mapped: 2502955
+
+35780476 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+30379609 + 0 mapped (84.91%:-nan%)
+35780476 + 0 paired in sequencing
+17878158 + 0 read1
+17902318 + 0 read2
+23869110 + 0 properly paired (66.71%:-nan%)
+29149241 + 0 with itself and mate mapped
+1230368 + 0 singletons (3.44%:-nan%)
+990292 + 0 with mate mapped to a different chr
+517501 + 0 with mate mapped to a different chr (mapQ>=5)
+
+(Cushaw3)
+Unmapped/Total = 5157214/35725642 = 85.56% mapped
+45609272 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+40452058 + 0 mapped (88.69%:-nan%)
+45609272 + 0 paired in sequencing
+22804636 + 0 read1
+22804636 + 0 read2
+38697844 + 0 properly paired (84.85%:-nan%)
+39373408 + 0 with itself and mate mapped
+1078650 + 0 singletons (2.36%:-nan%)
+595000 + 0 with mate mapped to a different chr
+447143 + 0 with mate mapped to a different chr (mapQ>=5)
+
+(Erne)
+Unmapped/Total = 8185519/35725642 = 77.81% mapped
+Multi-mapped reads (w/o unmapped) 27540123
+29942385 + 5783257 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+27540123 + 0 mapped (91.98%:0.00%)
+29942385 + 5783257 paired in sequencing
+14502992 + 3359829 read1
+15439393 + 2423428 read2
+21374448 + 0 properly paired (71.39%:0.00%)
+25351694 + 0 with itself and mate mapped
+2188429 + 0 singletons (7.31%:0.00%)
+1720194 + 0 with mate mapped to a different chr
+825238 + 0 with mate mapped to a different chr (mapQ>=5)
+
+(Hisat2)
+Unmapped/Total = 8534166/35725642 = 76.11% mapped
+38059647 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+29525481 + 0 mapped (77.58%:-nan%)
+38059647 + 0 paired in sequencing
+18979711 + 0 read1
+19079936 + 0 read2
+26090158 + 0 properly paired (68.55%:-nan%)
+26860803 + 0 with itself and mate mapped
+2664678 + 0 singletons (7.00%:-nan%)
+541197 + 0 with mate mapped to a different chr
+345606 + 0 with mate mapped to a different chr (mapQ>=5)
+
+(Segemehl)
+Unmapped/Total = 0/35725642 = 100% mapped 
+39508011 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+39508011 + 0 mapped (100.00%:-nan%)
+39508011 + 0 paired in sequencing
+19059682 + 0 read1
+20448329 + 0 read2
+36284118 + 0 properly paired (91.84%:-nan%)
+36284118 + 0 with itself and mate mapped
+3223893 + 0 singletons (8.16%:-nan%)
+267724 + 0 with mate mapped to a different chr
+267724 + 0 with mate mapped to a different chr (mapQ>=5)
+
+PROBLEM TOOLS:
+(Hobbes)
+ABORTED 26G 72 hours yet the file is way too big
+It seems like it's repeating numerous reads for some reason (from the tail of samtools view)
+SRR043348.14368721      419     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113523310      255      76M     =       113523656       422     *       *       NM:i:1
+SRR043348.14368721      339     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113568191      255      76M     =       113567844       -423    *       *       NM:i:4
+SRR043348.14368721      419     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113567844      255      76M     =       113568191       423     *       *       NM:i:4
+SRR043348.14368721      339     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113610462      255      76M     =       113610116       -422    *       *       NM:i:1
+SRR043348.14368721      419     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113610116      255      76M     =       113610462       422     *       *       NM:i:3
+SRR043348.14368721      339     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113780403      255      76M     =       113780057       -422    *       *       NM:i:1
+SRR043348.14368721      419     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113780057      255      76M     =       113780403       422     *       *       NM:i:2
+SRR043348.14368721      339     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113907215      255      76M     =       113906869       -422    *       *       NM:i:2
+SRR043348.14368721      419     chr8  AC:CM000670.2  gi:568336016  LN:145138636  rl:Chromosome  M5:c67955b5f7815a9a1edfaa15893d3616  AS:GRCh38  113906869      255      76M     =       113907215       422     *       *       NM:i:3
+
+3101717958 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+3093495722 + 0 mapped (99.73%:-nan%)
+3101717958 + 0 paired in sequencing
+1550858979 + 0 read1
+1550858979 + 0 read2
+3093495722 + 0 properly paired (99.73%:-nan%)
+3093495722 + 0 with itself and mate mapped
+0 + 0 singletons (0.00%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+
+(Mrsfast)
+Completed but file is way too big, lots of repeats, not sure what's going on
+SRR043348.12438562      99      chr1    103924522       255     76M     =      1                                                       03924856        410     AAAACCCTTCAAAAAATCAATGAATCCAGGAGCTGGTTTTTTGAAAGGATCAACAA                                                       AATTGATAGACCACTAGCAA    CCCCCCCCCCCCCCCCCCCCCCCDCCCCCCBCCCCCABDDDCD?BBDDBAAAABBB                                                       =>>ABAA>AAAAAAAAAAA9    NM:i:3  MD:Z:17T49TG7
+SRR043348.12438562      147     chr1    103924856       255     76M     =      1                                                       03924522        -410    TACCAACCAAAAAGAGTCCAGGACCAGATGGATTCACAGCCGAATTCTACCAGAGG                                                       TACAAGGAGGGACTGGTACC    ><@A@9B:>BBBB?BA1AB@@B@C5BDBBBBBABCDCDDCCCCCCCCCCCCCCCCC                                                       CCCCBA6AAA+C@ACCCCCC    NM:i:2  MD:Z:28A37A9
+SRR043348.12438562      83      chr1    104773158       255     76M     =      1                                                       04772824        -410    TTGCTAGTGGTCTATCAATTTTGTTGATCCTTTCAAAAAACCAGCTCCTGGATTCA                                                       TTGATTTTTTGAAGGGTTTT    9AAAAAAAAAAA>AABA>>=BBBAAAABDDBB?DCDDDBACCCCCBCCCCCCDCCC                                                       CCCCCCCCCCCCCCCCCCCC    NM:i:1  MD:Z:7C68
+SRR043348.12438562      163     chr1    104772824       255     76M     =      1                                                       04773158        410     GGTACCAGTCCCTCCTTGTACCTCTGGTAGAATTCGGCTGTGAATCCATCTGGTCC                                                       TGGACTCTTTTTGGTTGGTA    CCCCCCA@C+AAA6ABCCCCCCCCCCCCCCCCCCCCCDDCDCBABBBBBDB5C@B@                                                       @BA1AB?BBBB>:B9@A@<>    NM:i:1  MD:Z:9T66
+SRR043348.12438562      99      chr1    104820927       255     76M     =      1                                                       04821261        410     AAAACCCTTCAAAAAATCAATGAATCCAGGAGCTGGTTTTTTGAAAGGATCAACAA                                                       AATTGATAGACCACTAGCAA    CCCCCCCCCCCCCCCCCCCCCCCDCCCCCCBCCCCCABDDDCD?BBDDBAAAABBB                                                       =>>ABAA>AAAAAAAAAAA9    NM:i:2  MD:Z:17T41C16
+SRR043348.12438562      147     chr1    104821261       255     76M     =      1                                                       04820927        -410    TACCAACCAAAAAGAGTCCAGGACCAGATGGATTCACAGCCGAATTCTACCAGAGG                                                       TACAAGGAGGGACTGGTACC    ><@A@9B:>BBBB?BA1AB@@B@C5BDBBBBBABCDCDDCCCCCCCCCCCCCCCCC                                                       CCCCBA6AAA+C@ACCCCCC    NM:i:2  MD:Z:40T25A9
+SRR043348.12438562      83      chr1    104846745       255     76M     =      1                                                       04846411        -410    TTGCTAGTGGTCTATCAATTTTGTTGATCCTTTCAAAAAACCAGCTCCTGGATTCA                                                       TTGATTTTTTGAAGGGTTTT    9AAAAAAAAAAA>AABA>>=BBBAAAABDDBB?DCDDDBACCCCCBCCCCCCDCCC                                                       CCCCCCCCCCCCCCCCCCCC    NM:i:1  MD:Z:7C68
+SRR043348.12438562      163     chr1    104846411       255     76M     =      1                                                       04846745        410     GGTACCAGTCCCTCCTTGTACCTCTGGTAGAATTCGGCTGTGAATCCATCTGGTCC                                                       TGGACTCTTTTTGGTTGGTA    CCCCCCA@C+AAA6ABCCCCCCCCCCCCCCCCCCCCCDDCDCBABBBBBDB5C@B@                                                       @BA1AB?BBBB>:B9@A@<>    NM:i:1  MD:Z:9T66
+SRR043348.12438562      99      chr1    105576451       255     76M     =      1                                                       05576785        410     AAAACCCTTCAAAAAATCAATGAATCCAGGAGCTGGTTTTTTGAAAGGATCAACAA                                                       AATTGATAGACCACTAGCAA    CCCCCCCCCCCCCCCCCCCCCCCDCCCCCCBCCCCCABDDDCD?BBDDBAAAABBB                                                       =>>ABAA>AAAAAAAAAAA9    NM:i:3  MD:Z:17T46A3G7
+SRR043348.12438562      147     chr1    105576785       255     76M     =      1 
+
+2628090204 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 duplicates
+2628090204 + 0 mapped (100.00%:-nan%)
+2628090204 + 0 paired in sequencing
+1314045102 + 0 read1
+1314045102 + 0 read2
+2031607866 + 0 properly paired (77.30%:-nan%)
+2628090204 + 0 with itself and mate mapped
+0 + 0 singletons (0.00%:-nan%)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+Hasnt successfully run yet, file most likely too big
+(Mrfast) 
+
+Only works for single reads
+(genomemapper) 
+
+
+Task
+Create a table 
+Look for flag in tool for multimapped
+Create a reference 200bp then duplicate 
+Take substring (100bp) as a multimapped read 
+Run tool to see how tools determine multimapped reads
+Upload to github in multimapped directory
+Meeting 2PM PST Friday
+
+How to reshuffle
