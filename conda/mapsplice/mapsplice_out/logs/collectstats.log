@@ -1,0 +1,73 @@
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	unmapped	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	unspliced	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	spliced	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	deletion	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	insertion	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_reads	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_pair	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	canoical	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	semi_canonical	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	non_canonical	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	multiple	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	unique	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	clipped	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_multiple	1
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_unique	6
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_paired_multiple	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_paired_unique	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_single_multiple	1
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_single_unique	6
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_fusion_paired_multiple	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	both_unspliced_fusion_paired_unique	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	paired_multiple	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	paired_unique	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	single_multiple	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	single_unique	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_paired_multiple	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_paired_unique	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_canonical	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_semi_canonical	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_non_canonical	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_multiple	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_unique	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	spliced_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	spliced_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	spliced_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	unspliced_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	unspliced_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	unspliced_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	insertion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	insertion_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	insertion_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	deletion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	deletion_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	deletion_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	canoical_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	canoical_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	canoical_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	semi_canonical_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	semi_canonical_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	semi_canonical_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	non_canonical_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	non_canonical_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	non_canonical_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	clipped_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	clipped_single	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	clipped_fusion_paired	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	small_insertion_junction	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	small_deletion_junction	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	canonical_junction	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	semi_canonical_junction	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	non_canonical_junction	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_canon	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_semi_canon	0
+mapsplice_out/tmp/remap/_filtered_normal_alignments.final_stat.txt	fusion_non_canon	0
+Unable to open file:.final_stat.txt
+Unable to open file:mapsplice_out/logs/SetUnmappedBitFlag.log
+Unable to open file:mapsplice_out/fusions_candidates.txt
+Unable to open file:mapsplice_out/fusions_well_annotated.txt
+Unable to open file:mapsplice_out/fusions_not_well_annotated.txt
+Unable to open file:mapsplice_out/circular_RNAs.txt

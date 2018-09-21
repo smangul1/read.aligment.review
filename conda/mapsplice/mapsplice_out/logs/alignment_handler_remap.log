@@ -1,0 +1,43 @@
+2
+chrom_dir do_filter min_ins max_del min_anchor min_junc_anchor min_mismatch do_clip mate_dist max_anchor_diff chrom_size input_sam1 input_sam2
+clear junction
+cleared junction
+first process: 0.64
+write stat
+m_delete_len:6
+insert: 0
+delete: 0
+normal: 0
+mark fitered junction 
+m_delete_len:6
+insert: 0
+delete: 0
+normal: 0
+clear junction
+cleared junction
+second process: 0.52
+Convert hits to expressed regions 
+write stat
+m_delete_len:6
+insert: 0
+delete: 0
+normal: 0
+mark intermediate fitered junction 
+Union expression regions 
+Filter fusion by isolated exons 
+m_delete_len:6
+insert: 0
+delete: 0
+normal: 0
+third process prepare: 0
+third filtering
+clear junction
+cleared junction
+write stat
+write stat
+m_delete_len:6
+insert: 0
+delete: 0
+normal: 0
+third write junction: 0
+WriteFusionJunctionWithEncompassingAlignments filtering

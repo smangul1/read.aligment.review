@@ -1,0 +1,3 @@
+#!/bin/bash
+erne-create --fasta reference.fasta --output-prefix ref
+erne-map --reference ref.ebh --query1 reads.toy.example.fastq --output reads.toy.example.erne.bam

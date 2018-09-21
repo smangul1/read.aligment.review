@@ -1,0 +1,38 @@
+################Read Alignment Stats####################
+By mapping uniqueness
+total_reads	7
+unique	6	85.71%
+multiple	1	14.29%
+unmapped_reads	0	0.00%
+
+By pairing types
+paired_reads	0	0.00%
+fusion_paired_reads	0	0.00%
+unpaired_reads	7	100.00%
+
+By alignment types
+unspliced	7
+spliced	0
+fusion	0
+
+################Junction Stats####################
+Splice junctions
+total_splice_junction	0
+canonical_splice_junction	0	0.00%
+semi_canonical_splice_junction	0	0.00%
+non_canonical_splice_junction	0	0.00%
+
+Indels
+small_deletions	0
+small_insertions	0
+
+Fusion junctions
+canonical_fusion_junction	0	0.00%
+semi_canonical_fusion_junction	0	0.00%
+non_canonical_fusion_junction	0	0.00%
+
+Filtered fusions
+candidate_fusion	0
+well_annotated_fusion	0
+not_well_annotated_fusion	0
+circular_RNAs	0
