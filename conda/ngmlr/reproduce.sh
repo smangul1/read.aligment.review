@@ -1,0 +1,2 @@
+#!/bin/bash
+ngmlr -r reference.fasta -q reads.toy.example.fastq -o reads.toy.example.ngmlr.bam
