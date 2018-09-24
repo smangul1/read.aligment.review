@@ -1,0 +1,8 @@
+reference	razers	read	1	1264	100	+	.	ID=repeat_long;multi;pairScore=240;cigar=1264M
+reference	razers	read	10001	11264	100	+	.	ID=repeat_long;multi;pairScore=240;cigar=1264M
+reference	razers	read	1	11264	100	+	.	ID=repeat_long;suboptimal;pairScore=215;split;cigar=18M10000D1246M
+reference	razers	read	241	320	100	+	.	ID=repeat_short;multi;pairScore=80;cigar=80M
+reference	razers	read	10241	10320	100	+	.	ID=repeat_short;multi;pairScore=80;cigar=80M
+reference	razers	read	241	10320	100	+	.	ID=repeat_short;suboptimal;pairScore=79;split;cigar=18M10000D62M
+reference	razers	read	6310	7504	100	+	.	ID=simple_long;unique;pairScore=171;cigar=1195M
+reference	razers	read	6310	6384	100	+	.	ID=simple_short;unique;pairScore=75;cigar=75M
