@@ -1,0 +1,21 @@
+@HD	VN:1.0	SO:unsorted
+@PG	ID:ERNE	VN:2.1.1	CL: erne-map --force-standard --sam --reference ref.ebh --query1 reads.toy.example.short.fastq --output results/short.unmapped.erne.sam
+@CO	1539141515: ERNE version 2.1.1
+@CO	1539141515: --query1           = reads.toy.example.short.fastq
+@CO	1539141515: --query2           = 
+@CO	1539141515: --output           = results/short.unmapped.erne.sam
+@CO	1539141515: --sample           = no_sample_specified
+@CO	1539141515: --reference        = ref.ebh
+@CO	1539141515: --contamination-reference = 
+@CO	1539141515: --auto-errors      = true
+@CO	1539141515: --errors-rate      = 15
+@CO	1539141515: --errors           = 0
+@CO	1539141515: --threads          = 1
+@CO	1539141515: --min-size         = 25
+@CO	1539141515: --min-phred-value-CLC = 20
+@CO	1539141515: --min-mean-phread-quality = 20
+@CO	1539141515: --no-quality-check = false
+@RG	ID:1539141515	SM:no_sample_specified
+@SQ	SN:reference	LN:11264
+simple_short	0	reference	6310	60	75M	*	0	0	GCTGGAACCGTCCCCCAAGCGTTCAGGGTGGGCTTTGCTACGACTTCCGAGTCCAAAGACTCCCTGTTTTCGAAA	IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII	RG:Z:1539141515	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+unmapped	4	*	0	0	*	*	0	0	GTCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATC	IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII	RG:Z:1539141515	PG:Z:ERNE	NH:i:0	IH:i:0

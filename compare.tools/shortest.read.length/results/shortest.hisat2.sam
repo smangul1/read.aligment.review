@@ -1,0 +1,13 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Reference	LN:10239
+@PG	ID:hisat2	PN:hisat2	VN:2.1.0	CL:"/u/home/v/victorx/miniconda3/bin/hisat2-align-s --wrapper basic-0 -q -x reference -U reads.toy.example.fastq"
+R10	4	*	0	0	*	*	0	0	CTGGGCAGCC	~~~~~~~~~~	YT:Z:UU
+R20	0	Reference	6071	60	20M	*	0	0	GTGTAGGACGGTAGAAGGGC	~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:20	YT:Z:UU	NH:i:1
+R30	0	Reference	6843	60	30M	*	0	0	ATCGTTAGTGGACTCCTTGTCATCTTCCCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:30	YT:Z:UU	NH:i:1
+R40	0	Reference	7995	60	40M	*	0	0	CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:40	YT:Z:UU	NH:i:1
+R50	0	Reference	8613	60	50M	*	0	0	ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:50	YT:Z:UU	NH:i:1
+R60	0	Reference	4045	60	60M	*	0	0	ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:60	YT:Z:UU	NH:i:1
+R70	0	Reference	6642	60	70M	*	0	0	ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:70	YT:Z:UU	NH:i:1
+R80	0	Reference	3788	60	80M	*	0	0	TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:80	YT:Z:UU	NH:i:1
+R90	0	Reference	4683	60	90M	*	0	0	TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:90	YT:Z:UU	NH:i:1
+R100	0	Reference	9159	60	100M	*	0	0	GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:100	YT:Z:UU	NH:i:1

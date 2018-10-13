@@ -1,0 +1,86 @@
+# LAST version 941
+#
+# a=21 b=9 A=21 B=9 e=101 d=60 x=100 y=44 z=100 D=1e+06 E=4.88329e+07
+# R=01 u=0 s=2 S=0 M=0 T=0 m=10 l=1 n=10 k=1 w=1000 t=4.36661 j=3 Q=1
+# reference
+# Reference sequences=1 normal letters=10239
+# lambda=0.228526 K=0.433378
+#
+#     A   C   G   T   M   S   K   W   R   Y   B   D   H   V
+# A   6 -18 -18 -18   3 -18 -18   3   3 -18 -18   1   1   1
+# C -18   6 -18 -18   3   3 -18 -18 -18   3   1 -18   1   1
+# G -18 -18   6 -18 -18   3   3 -18   3 -18   1   1 -18   1
+# T -18 -18 -18   6 -18 -18   3   3 -18   3   1   1   1 -18
+# M   3   3 -18 -18   3   0 -18   0   0   0  -2  -2   1   1
+# S -18   3   3 -18   0   3   0 -18   0   0   1  -2  -2   1
+# K -18 -18   3   3 -18   0   3   0   0   0   1   1  -2  -2
+# W   3 -18 -18   3   0 -18   0   3   0   0  -2   1   1  -2
+# R   3 -18   3 -18   0   0   0   0   3 -18  -2   1  -2   1
+# Y -18   3 -18   3   0   0   0   0 -18   3   1  -2   1  -2
+# B -18   1   1   1  -2   1   1  -2  -2   1   1  -1  -1  -1
+# D   1 -18   1   1  -2  -2   1   1   1  -2  -1   1  -1  -1
+# H   1   1 -18   1   1  -2  -2   1  -2   1  -1  -1   1  -1
+# V   1   1   1 -18   1   1  -2  -2   1  -2  -1  -1  -1   1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# m=0.01 s=101
+#
+# Query sequences=10
+a score=600 mismap=1e-10
+s Reference 9158 100 + 10239 GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG
+s R100         0 100 +   100 GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG
+q R100                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                            &,28>DJPV\bhntz~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ztnhb\VPJD>82,&
+
+a score=120 mismap=0.00569
+s Reference 6070 20 + 10239 GTGTAGGACGGTAGAAGGGC
+s R20          0 20 +    20 GTGTAGGACGGTAGAAGGGC
+q R20                       ~~~~~~~~~~~~~~~~~~~~
+p                           &,1567777777777651,&
+
+a score=180 mismap=7.62e-09
+s Reference 6842 30 + 10239 ATCGTTAGTGGACTCCTTGTCATCTTCCCT
+s R30          0 30 +    30 ATCGTTAGTGGACTCCTTGTCATCTTCCCT
+q R30                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                           &,28>DJPV\bhmprrpmhb\VPJD>82,&
+
+a score=240 mismap=1e-10
+s Reference 7994 40 + 10239 CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT
+s R40          0 40 +    40 CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT
+q R40                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                           &,28>DJPV\bhntz~~~~~~~~~~ztnhb\VPJD>82,&
+
+a score=300 mismap=1e-10
+s Reference 8612 50 + 10239 ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG
+s R50          0 50 +    50 ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG
+q R50                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                           &,28>DJPV\bhntz~~~~~~~~~~~~~~~~~~~~ztnhb\VPJD>82,&
+
+a score=360 mismap=1e-10
+s Reference 4044 60 + 10239 ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA
+s R60          0 60 +    60 ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA
+q R60                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                           &,28>DJPV\bhntz~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ztnhb\VPJD>82,&
+
+a score=420 mismap=1e-10
+s Reference 6641 70 + 10239 ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA
+s R70          0 70 +    70 ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA
+q R70                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                           &,28>DJPV\bhntz~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ztnhb\VPJD>82,&
+
+a score=480 mismap=1e-10
+s Reference 3787 80 + 10239 TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA
+s R80          0 80 +    80 TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA
+q R80                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                           &,28>DJPV\bhntz~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ztnhb\VPJD>82,&
+
+a score=540 mismap=1e-10
+s Reference 4682 90 + 10239 TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG
+s R90          0 90 +    90 TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG
+q R90                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p                           &,28>DJPV\bhntz~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ztnhb\VPJD>82,&
+

@@ -1,0 +1,5 @@
+/u/home/v/victorx/read.aligment.review/compare.tools/multimapped/reference.fasta /u/home/v/victorx/read.aligment.review/compare.tools/multimapped/reads.toy.example.fasta
+NUCMER
+>Reference R1 8195 100
+1 100 1 100 0 0 0
+0

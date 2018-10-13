@@ -1,0 +1,14 @@
+/u/home/v/victorx/read.aligment.review/compare.tools/shortest.read.length/reference.fasta /u/home/v/victorx/read.aligment.review/compare.tools/shortest.read.length/reads.toy.example.fasta
+NUCMER
+>Reference R70 10239 70
+6642 6711 1 70 0 0 0
+0
+>Reference R80 10239 80
+3788 3867 1 80 0 0 0
+0
+>Reference R90 10239 90
+4683 4772 1 90 0 0 0
+0
+>Reference R100 10239 100
+9159 9258 1 100 0 0 0
+0

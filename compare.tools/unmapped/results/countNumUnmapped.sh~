@@ -1,0 +1,10 @@
+#!/bin/bash
+rm *.junc
+rm *.temp
+rm *.vcf
+unmapped="$(grep -l 'unmapped' short* | wc -l)" #total unmapped
+total="$(ls short* | wc -l)" #total files
+noUnmapped="$(grep -L 'unmapped' short* | wc -l)"
+echo "unmapped = $unmapped"
+echo "no unmapped = $noUnmapped"
+echo "total = $total"

@@ -1,0 +1,13 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Reference	LN:10239
+@PG	ID:ngmlr	PN:nextgenmap-lr	VN:0.2.7	CL:ngmlr -r reference.fasta -q reads.toy.example.fastq -o results/shortest.ngmlr.sam
+R10	4	*	0	0	*	*	0	0	CTGGGCAGCC	~~~~~~~~~~
+R20	0	Reference	6071	60	17M3S	*	0	0	GTGTAGGACGGTAGAAGGGC	~~~~~~~~~~~~~~~~~~~~	AS:i:34	NM:i:0	XI:f:1	XS:i:0	XE:i:34	XR:i:17	MD:Z:17	SV:i:0	QS:i:0	QE:i:17	CV:f:85.000000	
+R30	0	Reference	6845	60	2S28M	*	0	0	ATCGTTAGTGGACTCCTTGTCATCTTCCCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:56	NM:i:0	XI:f:1	XS:i:0	XE:i:56	XR:i:28	MD:Z:28	SV:i:0	QS:i:2	QE:i:30	CV:f:93.333336	
+R40	0	Reference	7995	60	40M	*	0	0	CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:80	NM:i:0	XI:f:1	XS:i:0	XE:i:80	XR:i:40	MD:Z:40	SV:i:0	QS:i:0	QE:i:40	CV:f:100.000000	
+R50	0	Reference	8613	60	50M	*	0	0	ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:100	NM:i:0	XI:f:1	XS:i:0	XE:i:100	XR:i:50	MD:Z:50	SV:i:0	QS:i:0	QE:i:50	CV:f:100.000000	
+R60	0	Reference	4045	60	60M	*	0	0	ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:120	NM:i:0	XI:f:1	XS:i:0	XE:i:120	XR:i:60	MD:Z:60	SV:i:0	QS:i:0	QE:i:60	CV:f:100.000000	
+R70	0	Reference	6642	60	70M	*	0	0	ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:140	NM:i:0	XI:f:1	XS:i:0	XE:i:140	XR:i:70	MD:Z:70	SV:i:0	QS:i:0	QE:i:70	CV:f:100.000000	
+R80	0	Reference	3788	60	80M	*	0	0	TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:160	NM:i:0	XI:f:1	XS:i:0	XE:i:160	XR:i:80	MD:Z:80	SV:i:0	QS:i:0	QE:i:80	CV:f:100.000000	
+R90	0	Reference	4683	60	90M	*	0	0	TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:180	NM:i:0	XI:f:1	XS:i:0	XE:i:180	XR:i:90	MD:Z:90	SV:i:0	QS:i:0	QE:i:90	CV:f:100.000000	
+R100	0	Reference	9159	60	100M	*	0	0	GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:200	NM:i:0	XI:f:1	XS:i:0	XE:i:200	XR:i:100	MD:Z:100	SV:i:0	QS:i:0	QE:i:100	CV:f:100.000000	

@@ -1,0 +1,13 @@
+@HD	VN:1.5	SO:unsorted
+@SQ	SN:Reference	LN:8195
+@PG	ID:pacfast	PN:pacfast	VN:0.0.9	CL:lordfast --search reference.fasta --seq reads.toy.example.fastq 
+R1	4	*	0	0	*	*	0	0	TTCTTCTTCTGCGCCATTTGATTGCCTAACCTCCTGAGTCGCAGTCCCTGGTTTGCGACAAAAGGAACTTACATTGACTTGACGTTTTGCATGCCAACTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R2	4	*	0	0	*	*	0	0	ATGACTGCCACTAGCACATACCTTACACCACCACGTCCGCTCTGTCCAAGAAAGTCCTTGTTCGTGCGGTTTTGTCGGTATGGTGATGAACTGCTCGCGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R3	4	*	0	0	*	*	0	0	CTTATCTGATCTATAGGGGGGGATTTATGACCGAGCTGTCTGTTCATCGGGGTAAAGCCAGAAGTCTTTACCTTGCCTCGAATTCCATCAGACCTTCTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R4	4	*	0	0	*	*	0	0	CAAGTAGACGTGCAATCTCACCGCATCGTGTGAAAGAACGTCATATTTGTCCGTCTGTCAAAATCACGATTTTGAAGGTTATTCTGTCCCATCTTTGTAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R5	4	*	0	0	*	*	0	0	GTTAACGGAATTAACATGCCTATCCCCCAGTCGGCCTAGGGTGAAAGTAGCGGATCCATATGACGCTGTGTGACCCGGGATCAAGCAGGGATGGTACACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R6	4	*	0	0	*	*	0	0	AGGTTAAGAGCAGCGTGGGCCCAGCCTCAAAGGAATCTGCGGGCGGACCGATGCCATGCCTGTCTAATCGCCCGTGCAGAGAAAGAATCCTGATTTAGTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R7	4	*	0	0	*	*	0	0	CTAAATCAAATGTAAGCGGGACCTGATCCAGTGGGTGCAGATCTAATAAGTGCAGCTATCACTGTCACTAACCTGATGAGTACACAGAAAGGCAATCGAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R8	4	*	0	0	*	*	0	0	GTACTTCTTAGCTTGATTTCACAGCTTAACATCCGAAGATCCCAAAAATCCAGACTCTCCCCGGGTGACTGGCGACTTTAGAGTAGCCGCAACAACTTAG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R9	4	*	0	0	*	*	0	0	TGAAGGATTATAGTCACAAGATCGGACTGAAACTTTCTGTGCACGTCTCACCTATAATGCACTACGCCAGGATTATTGATAGATCATCCCGACCAAGGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R10	4	*	0	0	*	*	0	0	TATAGGATTTGGGACACTATAGATTAATGCAATTGGCTGACCTGAGCCAATCATGGGGTAGCTTATCTCATCTCAAACGTGTCGATGCCTCTGGCCAGAA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,4 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:reference	LN:11264
+@PG	ID:gmapper	VN:2.2.3	CL:gmapper-ls reads.toy.example.fasta reference.fasta
+simple_short	0	reference	6310	250	75M	*	0	0	GCTGGAACCGTCCCCCAAGCGTTCAGGGTGGGCTTTGCTACGACTTCCGAGTCCAAAGACTCCCTGTTTTCGAAA	*	AS:i:750	Z0:i:753	Z1:i:753	NM:i:0

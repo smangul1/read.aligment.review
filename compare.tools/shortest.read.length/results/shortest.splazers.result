@@ -1,0 +1,7 @@
+Reference	razers	read	7995	8034	100	+	.	ID=R40;unique;pairScore=40;cigar=40M
+Reference	razers	read	8613	8662	100	+	.	ID=R50;unique;pairScore=50;cigar=50M
+Reference	razers	read	4045	4104	100	+	.	ID=R60;unique;pairScore=60;cigar=60M
+Reference	razers	read	6642	6711	100	+	.	ID=R70;unique;pairScore=70;cigar=70M
+Reference	razers	read	3788	3867	100	+	.	ID=R80;unique;pairScore=80;cigar=80M
+Reference	razers	read	4683	4772	100	+	.	ID=R90;unique;pairScore=90;cigar=90M
+Reference	razers	read	9159	9258	100	+	.	ID=R100;unique;pairScore=100;cigar=100M

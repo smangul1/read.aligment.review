@@ -1,0 +1,13 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Reference	LN:8195
+@PG	ID:subread	PN:subread	VN:1.6.2	CL:"subread-align" "-t" "1" "-i" "reference" "-r" "reads.toy.example.fastq" "-o" "results/multimapped.subread.sam" "--SAMoutput" 
+R1	0	Reference	1	40	100M	*	0	0	TTCTTCTTCTGCGCCATTTGATTGCCTAACCTCCTGAGTCGCAGTCCCTGGTTTGCGACAAAAGGAACTTACATTGACTTGACGTTTTGCATGCCAACTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	HI:i:1	NH:i:1	NM:i:0
+R2	4	*	0	0	*	*	0	0	ATGACTGCCACTAGCACATACCTTACACCACCACGTCCGCTCTGTCCAAGAAAGTCCTTGTTCGTGCGGTTTTGTCGGTATGGTGATGAACTGCTCGCGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R3	4	*	0	0	*	*	0	0	CTTATCTGATCTATAGGGGGGGATTTATGACCGAGCTGTCTGTTCATCGGGGTAAAGCCAGAAGTCTTTACCTTGCCTCGAATTCCATCAGACCTTCTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R4	4	*	0	0	*	*	0	0	CAAGTAGACGTGCAATCTCACCGCATCGTGTGAAAGAACGTCATATTTGTCCGTCTGTCAAAATCACGATTTTGAAGGTTATTCTGTCCCATCTTTGTAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R5	4	*	0	0	*	*	0	0	GTTAACGGAATTAACATGCCTATCCCCCAGTCGGCCTAGGGTGAAAGTAGCGGATCCATATGACGCTGTGTGACCCGGGATCAAGCAGGGATGGTACACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R6	4	*	0	0	*	*	0	0	AGGTTAAGAGCAGCGTGGGCCCAGCCTCAAAGGAATCTGCGGGCGGACCGATGCCATGCCTGTCTAATCGCCCGTGCAGAGAAAGAATCCTGATTTAGTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R7	4	*	0	0	*	*	0	0	CTAAATCAAATGTAAGCGGGACCTGATCCAGTGGGTGCAGATCTAATAAGTGCAGCTATCACTGTCACTAACCTGATGAGTACACAGAAAGGCAATCGAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R8	4	*	0	0	*	*	0	0	GTACTTCTTAGCTTGATTTCACAGCTTAACATCCGAAGATCCCAAAAATCCAGACTCTCCCCGGGTGACTGGCGACTTTAGAGTAGCCGCAACAACTTAG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R9	4	*	0	0	*	*	0	0	TGAAGGATTATAGTCACAAGATCGGACTGAAACTTTCTGTGCACGTCTCACCTATAATGCACTACGCCAGGATTATTGATAGATCATCCCGACCAAGGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R10	4	*	0	0	*	*	0	0	TATAGGATTTGGGACACTATAGATTAATGCAATTGGCTGACCTGAGCCAATCATGGGGTAGCTTATCTCATCTCAAACGTGTCGATGCCTCTGGCCAGAA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

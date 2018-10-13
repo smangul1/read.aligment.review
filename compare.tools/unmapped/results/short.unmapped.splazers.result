@@ -1,0 +1,2 @@
+reference	razers	read	6310	7504	100	+	.	ID=simple_long;unique;pairScore=171;cigar=1195M
+reference	razers	read	6310	6384	100	+	.	ID=simple_short;unique;pairScore=75;cigar=75M

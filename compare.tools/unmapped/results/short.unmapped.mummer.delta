@@ -1,0 +1,8 @@
+/u/home/v/victorx/read.aligment.review/compare.tools/unmapped/reference.fasta /u/home/v/victorx/read.aligment.review/compare.tools/unmapped/reads.toy.example.fasta
+NUCMER
+>reference simple_long 11264 1195
+6310 7504 1 1195 0 0 0
+0
+>reference simple_short 11264 75
+6310 6384 1 75 0 0 0
+0

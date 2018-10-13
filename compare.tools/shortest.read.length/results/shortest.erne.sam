@@ -1,0 +1,29 @@
+@HD	VN:1.0	SO:unsorted
+@PG	ID:ERNE	VN:2.1.1	CL: erne-map --force-standard --sam --reference ref.ebh --query1 reads.toy.example.fastq --output results/shortest.erne.sam
+@CO	1539218203: ERNE version 2.1.1
+@CO	1539218203: --query1           = reads.toy.example.fastq
+@CO	1539218203: --query2           = 
+@CO	1539218203: --output           = results/shortest.erne.sam
+@CO	1539218203: --sample           = no_sample_specified
+@CO	1539218203: --reference        = ref.ebh
+@CO	1539218203: --contamination-reference = 
+@CO	1539218203: --auto-errors      = true
+@CO	1539218203: --errors-rate      = 15
+@CO	1539218203: --errors           = 0
+@CO	1539218203: --threads          = 1
+@CO	1539218203: --min-size         = 25
+@CO	1539218203: --min-phred-value-CLC = 20
+@CO	1539218203: --min-mean-phread-quality = 20
+@CO	1539218203: --no-quality-check = false
+@RG	ID:1539218203	SM:no_sample_specified
+@SQ	SN:Reference	LN:10239
+R10	516	*	0	0	*	*	0	0	CTGGGCAGCC	~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NH:i:0	IH:i:0
+R20	516	*	0	0	*	*	0	0	GTGTAGGACGGTAGAAGGGC	~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NH:i:0	IH:i:0
+R30	0	Reference	6843	60	30M	*	0	0	ATCGTTAGTGGACTCCTTGTCATCTTCCCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+R40	0	Reference	7995	60	40M	*	0	0	CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+R50	0	Reference	8613	60	50M	*	0	0	ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+R60	0	Reference	4045	60	60M	*	0	0	ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+R70	0	Reference	6642	60	70M	*	0	0	ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+R80	0	Reference	3788	60	80M	*	0	0	TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+R90	0	Reference	4683	60	90M	*	0	0	TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1
+R100	0	Reference	9159	60	100M	*	0	0	GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	RG:Z:1539218203	PG:Z:ERNE	NM:i:0	NH:i:1	IH:i:1	HI:i:1

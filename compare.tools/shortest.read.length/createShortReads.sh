@@ -27,6 +27,8 @@ do
   # cat shortReads.fq shortest.read.length.fastq
 done
 
+sed -n '1~4s/^@/>/p;2~4p' shortest.read.length.fastq > shortest.read.length.fasta
+
 mv shortReads.fq shortest.read.length.fastq
 mv toy.short_reads.fq ..
 mv toy.short_reads.fa ..
