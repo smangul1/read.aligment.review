@@ -1,0 +1,14 @@
+@HD	VN:1.4	SO:unsorted
+@RG	ID:FASTQ	PL:Illumina	PU:pu	LB:lb	SM:sm
+@PG	ID:SNAP	PN:SNAP	CL:single index-dir reads.toy.example.fastq -o results/shortest.snap.sam	VN:1.0beta.23
+@SQ	SN:Reference	LN:10239
+R10	4	*	0	0	*	*	0	0	AAGACCAGAG	~~~~~~~~~~	PG:Z:SNAP	NM:i:-1	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R20	4	*	0	0	*	*	0	0	GAGTGTCTACATGTATAGTT	~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:-1	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R30	4	*	0	0	*	*	0	0	TCAATCCTGGCATAGTAACGTACAGAATCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:-1	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R40	4	*	0	0	*	*	0	0	CCCACCCTCCCTCACCCGCCTTGTGTCGCTGATCCCTGGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:-1	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R50	0	Reference	4672	70	50M	*	0	0	AAAGTTGAAGGGATTTAGGGCATTCTTTTTGACCCGCAATGTCAAATGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:0	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R60	0	Reference	9551	70	60M	*	0	0	ATGGCATAGTGGTTTAAATCTGTTCCCCCATCATCTCACCACTGTGTTAGAACGCGATCG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:0	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R70	0	Reference	2922	70	70M	*	0	0	GTTTACTCACACTGCCCCGAACCTGGTCGGACAGAGACAAACGCCCTGGAGATGGGGGAGGTATGTACAG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:0	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R80	0	Reference	7298	70	80M	*	0	0	AATATCCATAAACGTTACAAATAACAGAAATATGATATGGCCTCAAGAGTGTGGACACACGAATATCAGTTCGTTGTCTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:0	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R90	0	Reference	4510	70	90M	*	0	0	TCCGGGCGCATTGACCTTGAAGGAGTCCGAGGTAGCTTTTGGTACTGTCGCACTACCAGGGCACTGAATCCGGGGTTTGTTTGGTCCTTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:0	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm
+R100	0	Reference	5223	70	100M	*	0	0	AAAGTTAACTCCGGGCTCATTTACGCTTGTCACAAGCACTAGAATAAGTATAGCCCGTTGTCCCTTTATGTCGTAATTTTGCCGACTTTGCTGATATCCG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	PG:Z:SNAP	NM:i:0	RG:Z:FASTQ	PL:Z:Illumina	PU:Z:pu	LB:Z:lb	SM:Z:sm

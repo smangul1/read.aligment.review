@@ -3,6 +3,13 @@
 cp shortest.read.length.fastq reads.toy.example.fastq
 cp shortest.read.length.fasta reads.toy.example.fasta 
 
+blasr --header reference.fasta reads.toy.example.fasta > results/shortest.blasr.result
+
+snap-aligner index reference.fasta index-dir
+snap-aligner single index-dir reads.toy.example.fastq -o results/shortest.snap.sam
+
+rmap reads.toy.example.fastq -c reference.fasta -o results/shortest.rmap.sam
+
 segemehl.x -x reference.idx -d reference.fasta
 segemehl.x -i reference.idx -d reference.fasta -q reads.toy.example.fasta > results/shortest.segemehl.sam
 

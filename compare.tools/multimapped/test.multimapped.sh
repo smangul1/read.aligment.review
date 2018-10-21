@@ -7,6 +7,13 @@ cp long.multimapped.reads.fasta reads.toy.example.long.fasta
 cp multimapped.reference.short.fasta reference.fasta
 cp multimapped.reference.long.fasta reference.long.fasta
 
+blasr --header reference.fasta reads.toy.example.fasta > results/multimapped.blasr.result
+
+snap-aligner index reference.fasta index-dir
+snap-aligner single index-dir reads.toy.example.fastq -o results/multimapped.snap.sam
+
+rmap reads.toy.example.fastq -c reference.fasta -o results/multimapped.rmap.sam
+
 segemehl.x -x reference.idx -d reference.fasta
 segemehl.x -i reference.idx -d reference.fasta -q reads.toy.example.fasta > results/multimapped.segemehl.sam
 
@@ -17,13 +24,14 @@ smalt map -o results/multimapped.smalt.sam reference reads.toy.example.fastq
 soapsplice -d reference.fasta.index -1 reads.toy.example.fastq -o results/multimapped.soapsplice -f2
 
 splazers reference.fasta reads.toy.example.fasta -o results/multimapped.splazers.result
+splazers reference.long.fasta reads.toy.example.long.fasta -o results/multimapped.splazsers.long.result
 
 subread-buildindex -o reference reference.fasta
 subread-align -t 1 -i reference -r reads.toy.example.fastq -o results/multimapped.subread.sam --SAMoutput
 
 gmapper-ls reads.toy.example.fasta reference.fasta > results/multimapped.shrimp.sam
 
-nanoblaster -C10 -r reference.long.fasta -i reads.toy.example.long.fastq -o results/multimapped.nanoblaster
+nanoblaster -C10 -r reference.long.fasta -i reads.toy.example.long.fasta -o results/multimapped.nanoblaster
 
 micro_razers reference.fasta reads.toy.example.fasta -o results/multimapped.micro_razers.sam
 
@@ -58,8 +66,8 @@ lastal -Q1 reference reads.toy.example.fastq | last-split> results/multimapped.l
 
 ngmlr -r reference.fasta -q reads.toy.example.fastq -o results/multimapped.ngmlr.sam
 
-lordfast --index reference.fasta
-lordfast --search reference.fasta --seq reads.toy.example.fastq > results/multimapped.lordfast.sam
+lordfast --index reference.long.fasta
+lordfast --search reference.long.fasta --seq reads.toy.example.long.fastq > results/multimapped.lordfast.sam
 
 graphmap align -r reference.fasta -d reads.toy.example.fastq > results/multimapped.graphmap.sam
 

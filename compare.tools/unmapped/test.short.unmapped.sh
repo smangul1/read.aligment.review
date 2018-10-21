@@ -1,4 +1,10 @@
 #!/bin/bash
+blasr --header reference.fasta reads.toy.example.fasta > results/short.unmapped.blasr.result 
+
+snap-aligner index reference.fasta index-dir
+snap-aligner single index-dir reads.toy.example.short.fastq -o results/short.unmapped.snap.sam
+
+rmap reads.toy.example.short.fastq -c reference.fasta -o results/short.unmapped.rmap.sam
 
 segemehl.x -x reference.idx -d reference.fasta
 segemehl.x -i reference.idx -d reference.fasta -q reads.toy.example.fasta > results/short.unmapped.segemehl.sam
