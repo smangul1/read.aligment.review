@@ -1,3 +1,0 @@
-Commands used were following the formats provided in the manual: http://drfast.sourceforge.net/?manual
-
-drfast ran, but it doesn't seem to work/give the corret output. The sam file it outputs is empty. drfast reports that no reads were mapped. The unmapped reads were given in the unmapped file, showing that all input reads were unmapped. However, manually mapping a read to the reference with grep (and other tools such as bowtie2 and cushaw3) show that there are reads that match.

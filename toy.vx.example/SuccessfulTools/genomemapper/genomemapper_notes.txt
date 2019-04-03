@@ -1,1 +1,0 @@
-The output returns a file in a shore (default) or bed format. The formatting for the long reads output looks incorrect since everything is on one line, but that should be easy to fix.
