@@ -1,93 +1,93 @@
-,year,tool,paper,citation,index,global,local,technology,read.length
-1,2012,Batmis,BatMis: a fast algorithm for k-mismatch mapping,29,BWT-ST,seed,hamming distance,DNA,No
-2,2009,BFAST,BFAST: An Alignment Tool for Large Scale Genome Resequencing,596,hashing,seed,NA,DNA,No
-3,2011,Bismark,Bismark: a flexible aligner and methylation caller for Bisulfite-Seq applications,1332,BWT-FM,Backward Search,backtracking,Bisulfite,No
-4,2012,BLASR,Mapping single molecule sequencing reads using basic local alignment with successive refinement (BLASR): application and theory,504,BWT-FM,chain of seeds,DP,DNA,Yes
-5,2016,NanoBLASTer:,Fast Alignment and Characterization of Oxford Nanopore Single Molecule Sequencing Reads,5,hashing,chain of seeds,DP,DNA,Yes
-6,2002,Blat,BLAT—the BLAST-like alignment tool,6935,hashing,chain of seeds,hamming distance,DNA,No
-7,2009,Bowtie,Ultrafast and memory-efficient alignment of short DNA sequences to the human genome,13637,BWT-FM,Backward Search,backtracking,DNA,No
-8,2012,Bowtie2,Fast gapped-read alignment with Bowtie 2,13248,BWT-FM,Backward Search,Smith-Waterman,DNA,No
-9,2009,BRAT,BRAT: bisulfite-treated reads analysis tool,62,hashing,seed,hamming distance,Bisulfite,No
-10,2012,BRAT-BW,BRAT-BW: efficient and accurate mapping of bisulfite-treated reads,65,BWT-FM,Backward Search,backtracking,Bisulfite,No
-11,2010,BS-Seeker,BS Seeker: precise mapping for bisulfite sequencing,213,BWT-FM,Backward Search,backtracking,Bisulfite,No
-12,2013,BS-Seeker2,BS-Seeker2: a versatile aligning pipeline for bisulfite sequencing data,155,BWT-FM,Backward Search,Smith-Waterman,Bisulfite,No
-13,2009,BSMAP,BSMAP: whole genome bisulfite sequence MAPping program,475,hashing,seed,hamming distance,Bisulfite,No
-14,2009,BWA,Fast and accurate short read alignment with Burrows–Wheeler transform,17693,BWT-FM,Backward Search,backtracking,DNA,No
-15,2013,BWA-MEM,"Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM",1825,BWT-FM,chain of seeds,DP,DNA,No
-16,2014,BWA-PSSM,Adaptable probabilistic mapping of short reads using position specific scoring matrices,37,BWT-FM,Backward Search,backtracking,DNA,No
-17,2010,BWA-SW,Fast and accurate long-read alignment with Burrows–Wheeler transform,4647,BWT-FM,Backward Search,Smith-Waterman,DNA,No
-18,2008,BWT-SW,Compressed indexing and local alignment of DNA,142,BWT-FM,Backward Search,DP,DNA,No
-19,2009,CloudBurst,CloudBurst: highly sensitive read mapping with MapReduce,735,hashing,seed,Landau-Vishkin,DNA,No
-20,2015,ContextMap 2,ContextMap 2: fast and accurate context-based RNA-seq mapping,22,NA,NA,NA,RNA-Seq,No
-21,2013,CRAC,CRAC: an integrated approach to the analysis of RNA-seq reads,60,BWT-FM,seed,Coverage consensus,RNA-Seq,No
-22,2014,CUSHAW3,CUSHAW3: Sensitive and Accurate Base-Space and Color-Space Short-Read Alignment with Hybrid Seeding,41,BWT-FM,seed,DP,DNA,No
-23,2017,DART,DART: a fast and accurate RNA-seq mapper with a partitioning strategy,3,BWT-FM,Backward Search,Needleman–Wunsch,RNA-Seq,No
-24,2011,DynMap,DynMap: mapping short reads to multiple related genomes,2,hashing,seed,DP,DNA,No
-25,2016,ERNE,"Fast, accurate, and lightweight analysis of BS-treated reads with ERNE 2",7,hashing,seed,hamming distance,DNA,No
-26,2005,Exonerate,Automated generation of heuristics for biological sequence comparison,1138,hashing,seed,DP,DNA,No
-27,2012,GEM,"The GEM mapper: fast, accurate and versatile alignment by filtration",344,BWT-FM,Backward Search,DP,DNA,No
-28,2009,GenomeMapper,Simultaneous alignment of short reads against multiple genomes,182,hashing,chain of seeds,DP,DNA,No
-29,2005,GMAP,GMAP: a genomic mapping and alignment program for mRNA and EST sequences,1139,hashing,chain of seeds,DP,DNA,No
-30,2009,GNUMAP,The GNUMAP algorithm: unbiased probabilistic mapping of oligonucleotides from next-generation sequencing,85,hashing,seed,Needleman–Wunsch,DNA,No
-31,2010,GSNAP,Fast and SNP-tolerant detection of complex variants and splicing in short reads,1419,hashing,seed,hamming distance,DNA,No
-32,2015,HISAT,HISAT: a fast spliced aligner with low memory requirements,1611,BWT-FM,Backward Search,hamming distance,RNA-Seq,No
-33,2015,HISAT2,Indexing Graphs for Path Queries with Applications in Genome Research (paer they inspired from to implemenet new version),73,BWT-FM,Backward Search,hamming distance,DNA,No
-34,2014,Hobbes2,Improving read mapping using additional prefix grams,20,hashing,seed,union of sets,DNA,No
-35,2014,hpg-Aligner,Acceleration of short and long DNA read mapping without loss of accuracy using suffix array,20,suffix array,seed,Smith-Waterman,DNA,Yes
-36,2014,JAGuaR,JAGuaR: Junction Alignments to Genome for RNA-Seq Reads,17,BWT-FM,Backward Search,backtracking,RNA-Seq,No
-37,2010,MapSplice,MapSplice: Accurate mapping of RNA-seq reads for splice junction discovery,774,BWT-FM,Backward Search,hamming distance,RNA-Seq,No
-38,2008,MAQ,Mapping Short DNA sequencing reads and calling variants using mapping quality scores,2782,hashing,seed,Smith-Waterman,DNA,No
-39,2013,Masai,Fast and accurate read mapping with aproximate seeds and multiple backtracking,77,suffix tree,Backward Search,DP,DNA,No
-40,2010,MicroRazerS,MicroRazerS: rapid alignment of small RNA reads,41,hashing,seed ,hamming distance,miRNA,No
-41,2009,MOM,MOM: maximum oligonucleiotide mapping,52,hashing,seed,Smith-Waterman,DNA,No
-42,2014,MOSAIK,MOSAIK: A Hash-Based Algorithm for Accurate Next-Generation Sequencing Short-Read Mapping,216,hashing,seed,Smith-Waterman,DNA,No
-43,2009,mrFAST,Personalized Copy-Number and Segmental Duplication Maps using Next-Generation Sequencing,684,hashing,seed,levenshein distance,DNA,No
-44,2010,mrsFAST,mrsFast: a cache-oblivious algorithm for short-read mapping,258,hashing,seed,hamming distance,DNA,No
-45,2014,mrsFAST-Ultra,"mrsFast-Ultra: a compact, SNP-aware mapper for high performance sequencing applications",37,hashing,seed,hamming distance,DNA,No
-46,2013,NextGenMap,NextGenMap: fast and accurate read mapping in highly polymorphic genomes,132,hashing,seed,Smith-Waterman,DNA,No
-47,2012,OSA,OSA: a fast and accurate alignment tool for RNA-Seq,72,hashing,chain of seeds,NA,RNA-Seq,No
-48,2009,PASS, PASS: a program to align short sequences,148,hashing,seed,Needleman–Wunsch,DNA,No
-49,2012,Passion,PASSion: a pattern growth algorithm-based pipeline for splice junction detection in paired-end RNA-Seq data,35,hashing,seed,Smith-Waterman,RNA-Seq,No
-50,2009,PerM,PerM: efficient mapping of short sequencing reads with periodic full sensitive spaced seeds,124,hashing,chain of seeds,binary search,DNA,No
-51,2008,QPALMA,Optimal spliced alignments of short sequence reads,173,suffix array,seed,Smith-Waterman,RNA-Seq,No
-52,2009,RazerS,RazerS—fast read mapping with sensitivity control,177,hashing,seed,DP,DNA,No
-53,2012,RazerS3,"RazerS 3: Faster, fully sensitive read mapping",101,hashing,seed,DP,DNA,No
-54,2016,rHAT,rHAT: fast alignment of noisy long reads with regional hashing.,13,hashing,seed ,DP,DNA,Yes
-55,2008,RMAP,Using quality scores and longer reads improves accuracy of solexa read mapping. Updates to the RMAP short-read mapping software.,380,hashing,seed,NA,DNA,No
-56,2009,segemehl,"Fast Mapping of Short Sequences with Mismatches, Insertions and Deletions Using Index Structures",421,suffix array,Backward Search,DP,DNA,No
-57,2012,SeqAlto,Fast and Accurate Read Alignment for Resequencing,46,hashing,seed,Needleman–Wunsch,DNA,No
-58,2008,SeqMap,SeqMap: Mapping Massive Amount of Oligonucleotides to the Genome,402,hashing,seed,NA,DNA,No
-59,2009,SHRiMP,SHRiMP: Accurate Mapping of Short Color-space Reads,609,hashing,chain of seeds,Smith-Waterman,DNA,No
-60,2011,SHRiMP2,SHRiMP2: Sensitive yet Practical Short Read Mapping,333,hashing,chain of seeds,Smith-Waterman,DNA,No
-61,2009,Slider,Slider—maximum use of probability information for alignment of short sequence reads and SNP detection,65,hashing,seed,NA,DNA,No
-62,2010,Slider II,High quality SNP calling using Illumina data at shallow coverage,60,hashing,seed,NA,DNA,No
-63,2010,Smalt,https://s3.amazonaws.com/cdn.f1000.com/posters/docs/327,,hashing,seed,Smith-Waterman,DNA,No
-64,2011,SNAP,Faster and More Accurate Sequence Alignment with SNAP,107,hashing,seed,DP,DNA,No
-65,2008,SOAP,SOAP: short oligonucleotide alignment program,1939,hashing,seed,NA,DNA,No
-66,2009,SOAP2,SOAP2: an improved ultrafast tool for short read alignment,2826,BWT-FM,seed,NA,DNA,No
-67,2011,SOAPSplice,SOAPsplice: genome-wide ab initio detection of splice junctions from RNA-Seq data,112,BWT-FM,seed,NA,RNA-Seq,No
-68,2008,SOCS,Efficient mapping of Applied Biosystems SOLiD sequence data to a reference genome for functional genomic applications ,119,hashing,seed,NA,DNA,No
-69,2012,SplazerS,Detecting genomic indel variants with exact breakpoints in single- and paired-end sequencing data using SplazerS,59,hashing,seed,NA,DNA,No
-70,2010,SpliceMap,Detection of splice junctions from paired-end RNA-seq data by SpliceMap,335,hashing,seed,NA,RNA-Seq,No
-71,2013,SRmapper,SRmapper: a fast and sensitive genome-hashing alignment tool,18,hashing,seed,NA,DNA,No
-72,2001,SSAHA,SSAHA: a fast search method for large DNA databases.,1093,hashing,seed,NA,DNA,No
-73,2011,Stampy,Stampy: a statistical algorithm for sensitive and fast mapping of Illumina sequence reads.,880,hashing,seed,Needleman–Wunsch,DNA,No
-74,2013,STAR,STAR: ultrafast universal RNA-seq aligner,6021,suffix array,seed,Smith-Waterman,RNA-Seq,No
-75,2013,Subread,"The Subread aligner: fast, accurate and scalable read mapping by seed-and-vote.",775,hashing,seed,Smith-Waterman,RNA-Seq,No
-76,2010,Supersplat,Supersplat—spliced RNA-seq alignment,58,hashing,seed,NA,RNA-Seq,No
-77,2009,TopHat,TopHat: discovering splice junctions with RNA-Seq,8395,BWT-FM,seed,NA,RNA-Seq,No
-78,2013,TopHat 2,"TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions",6072,BWT-FM,seed,NA,RNA-Seq,No
-79,2010,VMATCH,The Vmatch large scale sequence analysis software,65,suffix array,seed,NA,DNA,No
-80,2012,WHAM,WHAM: A High-Throughput Sequence Alignment Method,58,hashing,seed,NA,DNA,No
-81,2011,X-Mate,X-MATE: a flexible system for mapping short read data,15,hashing,seed,NA,DNA,No
-82,2012,YAHA,YAHA: fast and flexible long-read alignment with optimal breakpoint detection.,44,hashing,seed,Smith-Waterman,DNA,Yes
-83,2008,ZOOM,ZOOM! Zillions of oligos mapped,261,hashing,seed,NA,DNA,No
-84,2018,minimap2,Minimap2: pairwise alignment for nucleotide sequences,153,hashing,seed,NA,DNA/RNA-Seq,Yes
-85,2016,minialign,Minimap and miniasm: fast mapping and de novo assembly for noisy long sequences,172,hashing,seed,NA,DNA,Yes
-86,2016,GraphMap,Fast and sensitive mapping of nanopore sequencing reads with GraphMap,127,hashing,seed,NA,DNA,Yes
-87,2011,LAST,Adaptive seeds tame genomic sequence comparison.,480,suffix array,seed,NA,DNA,No
-88,2003,BLASTZ?,Human–Mouse Alignments with BLASTZ,1339,hashing,seed,NA,DNA,No
-89,2018,NGMLR,Accurate detection of complex structural variations using single-molecule sequencing,71,hashing,seed,NA,DNA,Yes
-90,2016,NanoBLASTer,NanoBLASTer: Fast alignment and characterization of Oxford Nanopore single molecule sequencing reads,5,hashing,seed,NA,DNA,Yes
-91,2018,lordFAST,lordFAST: sensitive and Fast Alignment Search Tool for LOng noisy Read sequencing Data,0,BWT-FM,seed,levenshein distance,DNA,Yes
-92,2018,Magic-BLAST,"Magic-BLAST, an accurate DNA and RNA-seq aligner for long and short reads",3,hashing,seed,DP,DNA/RNA-Seq,Yes
+,year,tool,citation,index,global,local,technology,read.length
+1,2012,Batmis,29,BWT-ST,seed,hamming distance,DNA,No
+2,2009,BFAST,596,hashing,seed,Not specified,DNA,No
+3,2011,Bismark,1332,BWT-FM,Backward Search,backtracking,Bisulfite,No
+4,2012,BLASR,504,BWT-FM,chain of seeds,DP,DNA,Yes
+5,2016,NanoBLASTer:,5,hashing,chain of seeds,DP,DNA,Yes
+6,2002,Blat,6935,hashing,chain of seeds,hamming distance,DNA,No
+7,2009,Bowtie,13637,BWT-FM,Backward Search,backtracking,DNA,No
+8,2012,Bowtie2,13248,BWT-FM,Backward Search,Smith-Waterman,DNA,No
+9,2009,BRAT,62,hashing,seed,hamming distance,Bisulfite,No
+10,2012,BRAT-BW,65,BWT-FM,Backward Search,backtracking,Bisulfite,No
+11,2010,BS-Seeker,213,BWT-FM,Backward Search,backtracking,Bisulfite,No
+12,2013,BS-Seeker2,155,BWT-FM,Backward Search,Smith-Waterman,Bisulfite,No
+13,2009,BSMAP,475,hashing,seed,hamming distance,Bisulfite,No
+14,2009,BWA,17693,BWT-FM,Backward Search,backtracking,DNA,No
+15,2013,BWA-MEM,1825,BWT-FM,chain of seeds,DP,DNA,No
+16,2014,BWA-PSSM,37,BWT-FM,Backward Search,backtracking,DNA,No
+17,2010,BWA-SW,4647,BWT-FM,Backward Search,Smith-Waterman,DNA,No
+18,2008,BWT-SW,142,BWT-FM,Backward Search,DP,DNA,No
+19,2009,CloudBurst,735,hashing,seed,Landau-Vishkin,DNA,No
+20,2015,ContextMap 2,22,NA,NA,NA,RNA-Seq,No
+21,2013,CRAC,60,BWT-FM,seed,Coverage consensus,RNA-Seq,No
+22,2014,CUSHAW3,41,BWT-FM,seed,DP,DNA,No
+23,2017,DART,3,BWT-FM,Backward Search,Needleman-Wunsch,RNA-Seq,No
+24,2011,DynMap,2,hashing,seed,DP,DNA,No
+25,2016,ERNE,7,hashing,seed,hamming distance,DNA,No
+26,2005,Exonerate,1138,hashing,seed,DP,DNA,No
+27,2012,GEM,344,BWT-FM,Backward Search,DP,DNA,No
+28,2009,GenomeMapper,182,hashing,chain of seeds,DP,DNA,No
+29,2005,GMAP,1139,hashing,chain of seeds,DP,DNA,No
+30,2009,GNUMAP,85,hashing,seed,Needleman-Wunsch,DNA,No
+31,2010,GSNAP,1419,hashing,seed,hamming distance,DNA,No
+32,2015,HISAT,1611,BWT-FM,Backward Search,hamming distance,RNA-Seq,No
+33,2015,HISAT2,73,BWT-FM,Backward Search,hamming distance,DNA,No
+34,2014,Hobbes2,20,hashing,seed,union of sets,DNA,No
+35,2014,hpg-Aligner,20,suffix array,seed,Smith-Waterman,DNA,Yes
+36,2014,JAGuaR,17,BWT-FM,Backward Search,backtracking,RNA-Seq,No
+37,2010,MapSplice,774,BWT-FM,Backward Search,hamming distance,RNA-Seq,No
+38,2008,MAQ,2782,hashing,seed,Smith-Waterman,DNA,No
+39,2013,Masai,77,suffix tree,Backward Search,DP,DNA,No
+40,2010,MicroRazerS,41,hashing,seed ,hamming distance,miRNA,No
+41,2009,MOM,52,hashing,seed,Smith-Waterman,DNA,No
+42,2014,MOSAIK,216,hashing,seed,Smith-Waterman,DNA,No
+43,2009,mrFAST,684,hashing,seed,levenshein distance,DNA,No
+44,2010,mrsFAST,258,hashing,seed,hamming distance,DNA,No
+45,2014,mrsFAST-Ultra,37,hashing,seed,hamming distance,DNA,No
+46,2013,NextGenMap,132,hashing,seed,Smith-Waterman,DNA,No
+47,2012,OSA,72,hashing,chain of seeds,Not specified,RNA-Seq,No
+48,2009,PASS,148,hashing,seed,Needleman-Wunsch,DNA,No
+49,2012,Passion,35,hashing,seed,Smith-Waterman,RNA-Seq,No
+50,2009,PerM,124,hashing,chain of seeds,binary search,DNA,No
+51,2008,QPALMA,173,suffix array,seed,Smith-Waterman,RNA-Seq,No
+52,2009,RazerS,177,hashing,seed,DP,DNA,No
+53,2012,RazerS3,101,hashing,seed,DP,DNA,No
+54,2016,rHAT,13,hashing,seed ,DP,DNA,Yes
+55,2008,RMAP,380,hashing,seed,NA,DNA,No
+56,2009,segemehl,421,suffix array,Backward Search,DP,DNA,No
+57,2012,SeqAlto,46,hashing,seed,Needleman-Wunsch,DNA,No
+58,2008,SeqMap,402,hashing,seed,Not specified,DNA,No
+59,2009,SHRiMP,609,hashing,chain of seeds,Smith-Waterman,DNA,No
+60,2011,SHRiMP2,333,hashing,chain of seeds,Smith-Waterman,DNA,No
+61,2009,Slider,65,hashing,seed,Not specified,DNA,No
+62,2010,Slider II,60,hashing,seed,Not specified,DNA,No
+63,2010,Smalt,,hashing,seed,Smith-Waterman,DNA,No
+64,2011,SNAP,107,hashing,seed,DP,DNA,No
+65,2008,SOAP,1939,hashing,seed,Not specified,DNA,No
+66,2009,SOAP2,2826,BWT-FM,seed,Not specified,DNA,No
+67,2011,SOAPSplice,112,BWT-FM,seed,Not specified,RNA-Seq,No
+68,2008,SOCS,119,hashing,seed,Not specified,DNA,No
+69,2012,SplazerS,59,hashing,seed,Not specified,DNA,No
+70,2010,SpliceMap,335,hashing,seed,Not specified,RNA-Seq,No
+71,2013,SRmapper,18,hashing,seed,Not specified,DNA,No
+72,2001,SSAHA,1093,hashing,seed,Not specified,DNA,No
+73,2011,Stampy,880,hashing,seed,Needleman-Wunsch,DNA,No
+74,2013,STAR,6021,suffix array,seed,Smith-Waterman,RNA-Seq,No
+75,2013,Subread,775,hashing,seed,Smith-Waterman,RNA-Seq,No
+76,2010,Supersplat,58,hashing,seed,Not specified,RNA-Seq,No
+77,2009,TopHat,8395,BWT-FM,seed,Not specified,RNA-Seq,No
+78,2013,TopHat 2,6072,BWT-FM,seed,Not specified,RNA-Seq,No
+79,2010,VMATCH,65,suffix array,seed,Not specified,DNA,No
+80,2012,WHAM,58,hashing,seed,Not specified,DNA,No
+81,2011,X-Mate,15,hashing,seed,Not specified,DNA,No
+82,2012,YAHA,44,hashing,seed,Smith-Waterman,DNA,Yes
+83,2008,ZOOM,261,hashing,seed,Not specified,DNA,No
+84,2018,minimap2,153,hashing,seed,Not specified,DNA/RNA-Seq,Yes
+85,2016,minialign,172,hashing,seed,Not specified,DNA,Yes
+86,2016,GraphMap,127,hashing,seed,Not specified,DNA,Yes
+87,2011,LAST,480,suffix array,seed,Not specified,DNA,No
+88,2003,BLASTZ?,1339,hashing,seed,Not specified,DNA,No
+89,2018,NGMLR,71,hashing,seed,Not specified,DNA,Yes
+90,2016,NanoBLASTer,5,hashing,seed,Not specified,DNA,Yes
+91,2018,lordFAST,0,BWT-FM,seed,levenshein distance,DNA,Yes
+92,2018,Magic-BLAST,3,hashing,seed,DP,DNA/RNA-Seq,Yes
