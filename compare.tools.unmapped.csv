@@ -2,9 +2,9 @@ tools,unmapped,simple_short,simple_long
 blat,N,Y,Y
 blasr,N,N,Y
 bowtie2,Y,Y,Y
-bowtie,N,Y,N
+bowtie,Y,Y,N
 bwa,Y,Y,Y
-erne,Y,N,N
+erne,Y,Y,N
 exonerate,N,Y,Y
 graphmap,Y,Y,Y
 gsnap,Y,Y,Y
@@ -22,11 +22,11 @@ ngm,Y,Y,Y
 novoalign,Y,Y,Y
 rmap,N,Y,N
 segemehl,Y,Y,Y
-shrimp,N,Y,N
+shrimp,N,Y,Y
 smalt,Y,Y,Y
-snap,Y,N,N
+snap,Y,Y,N
 soapsplice,N,Y,Y
 splazers,N,Y,Y
-STAR,Y,N,Y
+STAR,Y,Y,Y
 subread,Y,Y,Y
 tophat2,Y,Y,N
